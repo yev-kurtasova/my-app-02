@@ -5,7 +5,7 @@ import './App.css';
 function App() {
   const element1 = React.createElement('h2', { 'fontFamily': 'Tahoma', 'backgroundColor': 'yellow'}, 'Task 2');
   const element2 = React.createElement('p', { 'fontFamily': 'Tahoma', 'fontSize': '40px' }, 'Розробити сторінку з заголовком, параграфом тексту та зображенням за допомогою синтаксису JSX. Повторити дану сторінку, використовуючи метод createElement.');
-  const elementImg = React.createElement('img', { 'src': 'C:/IT/FrontEnd/React/02/hw_2/my-app-02/public/cat.jpg' }, null);
+  const elementImg = React.createElement('img', { 'src': './assets/cat.jpg' }, null);
   return (
     
     <>
