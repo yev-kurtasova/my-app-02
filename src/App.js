@@ -1,24 +1,17 @@
-import logo from './logo.svg';
+import logo from './assets/cat.jpg'
+import React from 'react';
 import './App.css';
 
 function App() {
+  const element1 = React.createElement('hq', { 'fontSize': '40px'}, 'Розробити сторінку з заголовком, параграфом тексту та зображенням за допомогою синтаксису JSX. Повторити дану сторінку, використовуючи метод createElement.')
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    
+    <img src={logo} alt='cat'></img>
+    
+
+    {element1}
+    </>
   );
 }
 
